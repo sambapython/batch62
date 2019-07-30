@@ -1,0 +1,33 @@
+INFO:root:program started
+INFO:root:a value entered
+INFO:root:b value entered
+DEBUG:root:before conversion:a=12,b=6
+INFO:root:a value converted
+INFO:root:b value coinverted
+DEBUG:root:after conversion:a=12.0,b=6.0
+DEBUG:root:Result=2.0
+INFO:root:program execytion completed..
+2019-07-30 08:16:48,989=>INFO->root==>program started
+2019-07-30 08:16:50,437=>INFO->root==>a value entered
+2019-07-30 08:16:51,004=>INFO->root==>b value entered
+2019-07-30 08:16:51,004=>DEBUG->root==>before conversion:a=12,b=6
+2019-07-30 08:16:51,004=>INFO->root==>a value converted
+2019-07-30 08:16:51,004=>INFO->root==>b value coinverted
+2019-07-30 08:16:51,004=>DEBUG->root==>after conversion:a=12.0,b=6.0
+2019-07-30 08:16:51,005=>DEBUG->root==>Result=2.0
+2019-07-30 08:16:51,005=>INFO->root==>program execytion completed..
+2019-07-30 08:17:22,336=>INFO->root==>program started
+2019-07-30 08:17:22,970=>INFO->root==>a value entered
+2019-07-30 08:17:23,612=>INFO->root==>b value entered
+2019-07-30 08:17:23,613=>DEBUG->root==>before conversion:a=12,b=0
+2019-07-30 08:17:23,613=>INFO->root==>a value converted
+2019-07-30 08:17:23,613=>INFO->root==>b value coinverted
+2019-07-30 08:17:23,613=>DEBUG->root==>after conversion:a=12.0,b=0.0
+2019-07-30 08:17:23,614=>ERROR->root==>float division by zero
+2019-07-30 08:17:23,614=>INFO->root==>program execytion completed..
+2019-07-30 08:17:33,060=>INFO->root==>program started
+2019-07-30 08:17:34,252=>INFO->root==>a value entered
+2019-07-30 08:17:34,811=>INFO->root==>b value entered
+2019-07-30 08:17:34,811=>DEBUG->root==>before conversion:a=we,b=23
+2019-07-30 08:17:34,811=>ERROR->root==>could not convert string to float: 'we'
+2019-07-30 08:17:34,811=>INFO->root==>program execytion completed..
